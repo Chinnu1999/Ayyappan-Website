@@ -1,0 +1,45 @@
+/******************body***********************/
+body {
+  background-color: pink;
+  margin: 0;
+}
+
+h1 {
+  font-family: Sacramento;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+p {
+  font-family: cursive;
+}
+
+
+
+
+/******************Top Container**************/
+.top {
+  background-color: black;
+  color: white;
+}
+
+.top-container {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #339999;
+}
+
+
+
+
+
+
+/*****************images***********************/
+
+.img1 {
+  border-radius: 100%;
+  border-style: double;
+  border-width: thick;
+}
