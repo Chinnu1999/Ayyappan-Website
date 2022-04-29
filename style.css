@@ -4,6 +4,60 @@ body {
   margin: 0;
 }
 
+
+
+
+
+
+/******************Top Container**************/
+
+.header {
+
+  text-align: center;
+	height: 91.4vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #16C7C7;
+}
+
+.top {
+  background-color: black;
+  color: white;
+}
+
+.user-box
+{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+
+
+
+.scroll-btn {
+	border-radius: 30px;
+	bottom: 30px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 2px solid #fff;
+  border-color: black;
+	padding: 10px 10px 15px;
+}
+
+.scroll-bar span
+{
+  border: 2px solid #fff;
+  font-size: 10px;
+  border-radius: 30px;
+}
+.scroll-bar
+{
+	animation: moveer ls infinite alternate;
+}
+
 h1 {
   font-family: Sacramento;
   font-weight: bold;
@@ -14,22 +68,6 @@ h1 {
 p {
   font-family: Dancing script;
   font-size: 20px;
-}
-
-
-
-
-/******************Top Container**************/
-.top {
-  background-color: black;
-  color: white;
-}
-
-.top-container {
-  text-align: center;
-  padding-top: 8%;
-  padding-bottom: 8%;
-  background-color: #339999;
 }
 
 
